@@ -25,6 +25,10 @@ body .github-fork-ribbon:before {
   }
 }
 
+@media (max-width: 500px) {
+  .component-display {background-color: red;}
+}
+
 @media (min-width: 400px) and (min-height: 400px) {
   html {
     font-size: 20px;
